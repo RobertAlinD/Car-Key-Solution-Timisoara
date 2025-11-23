@@ -1,0 +1,25 @@
+/* DESKTOP */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  float: right;
+  margin-right: 150px;
+  margin-top: -410px;
+  border-radius: 10px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.map-frame {
+  border: 0;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+/* MOBILE */
+
+

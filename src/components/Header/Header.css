@@ -1,0 +1,401 @@
+/* Import font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* DESKTOP SECTION */
+
+@media (min-width: 769px) {
+ .navbar-logo-box > img {
+    display: flex;
+    height: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    border-bottom: 1px solid transparent;
+    border-width: 0 0 1px;
+    line-height: 30px;
+    z-index: 35;
+} 
+}
+
+.navbar-logo-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 50px;
+  margin-right: auto;
+  z-index: 40;
+  
+}
+
+.social-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-height: none;
+  margin-top: 0;
+  z-index: 30;
+  
+}
+
+.social-container > a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px;
+}
+
+
+.social-container > a:hover svg:not(:root):not(:host).svg-inline--fa {
+  transform: scale(1.1);
+  color:#3ba2a2;
+}
+
+
+.whatsappsocial {
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  border-bottom: 1px solid transparent;
+  z-index: 12;
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.nav-items {
+  flex: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transition: height 0.3s ease;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.navbar-logo-box > img {
+  margin-top: 15px;
+  height: 130px;
+  width: 180px;
+  z-index: 15;
+}
+
+.nav-items > a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px; /* Am crescut dimensiunea fontului */
+  font-weight: 600; /* Font mai îndrăzneț */
+  padding: 25px 25px 19px 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif; /* Folosim fontul Poppins */
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.9s ease;
+}
+
+.nav-items > a:hover {
+  transform: scale(1.1);
+  
+  
+}
+
+.bookingnav > a {
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  transition: transform 0.5s ease;
+}
+
+.nav-items > a {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 25px 12px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #fff; /* Culoarea de bază a textului */
+  position: relative;
+  background: linear-gradient(120deg, #fff, #fff); /* Gradient inițial */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.nav-items > a:hover {
+  background: linear-gradient(120deg, transparent, #00f2ff, #00f2ff65); /* Gradientul animat */
+  background-size: 200%;
+  background-position: right;
+  color: transparent; /* Textul rămâne vizibil doar prin gradient */ 
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-position 1.5s;
+
+}
+
+
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: linear-gradient(90deg, #014d55 50%, #61E0E7 50%);
+  box-shadow: inset 0 0 0 1000px #fff;
+  transition: box-shadow 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.bar:hover {
+  box-shadow: inset 0 0 0 1000px #ffa600;
+  background: linear-gradient(90deg, #ffa600 50%, #014d55 50%);
+}
+
+.social-container {
+  padding-right: 20px;
+  font-size: 30px;
+  display: flex;
+}
+
+.nav-items > a:last-child {
+  border: 2px solid white; /* Cadran alb */
+  padding: 3px 8px; /* Spațiere pentru aspect */
+  border-radius: 5px; /* Colțuri rotunjite pentru un aspect mai modern */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+}
+
+.nav-items > a:last-child:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2); /* Fundal transparent la hover */
+  
+}
+
+.contact-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: inline-block;
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact-link .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 110%; /* Afișează tooltip-ul sub link */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  font-size: 14px;
+  transition: visibility 0.2s, opacity 0.2s ease-in-out;
+  z-index: 100;
+}
+
+.contact-link:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Pentru funcția de apelare directă pe dispozitive */
+.contact-link .tooltip:hover {
+  cursor: pointer;
+}
+.tooltip {
+  text-transform: none; /* Asigură text normal */
+}
+.whatsapp-floating {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 9999;
+}
+
+
+/* ============================= */
+/*      WHATSAPP FLOATING       */
+/* ============================= */
+
+.whatsapp-floating {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.whatsapp-floating .whatsappsocial {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25d366;
+  color: white;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: bounceUp 1.5s infinite;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-floating .whatsappsocial:hover {
+  transform: scale(1.1);
+  background-color: #1ebe5b;
+}
+
+.whatsapp-help-text {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .whatsapp-help-text {
+    display: none;
+  }
+}
+
+@keyframes bounceUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* MOBILE SECTION  */
+
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    top: 50px;
+    display: none;
+    text-align: center;
+    margin-left: 15px;
+    transition: background-position 0.3s ease-in-out;
+  }
+
+  .nav-items > a {
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.5s ease;
+    font-weight: 800;
+  }
+
+  .nav-items > a:hover {
+    border-radius: 10px;
+    background-color: #212121;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+  }
+
+  .bookingnav > a {
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(1, 77, 85, 0.5)),
+      #014d55;
+  }
+
+  .bookingnav > a :hover {
+    padding: 2px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    transform: scale(1);
+    background-color: #212121;
+  }
+
+  .nav.active .nav-items {
+    display: flex;
+  }
+
+  .nav-toggle {
+    margin-top: 20px;
+    display: block;
+    padding-right: 40px;
+  }
+
+  .navbar-logo-box {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 50px;
+    margin-right: auto;
+  }
+
+  .social-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-height: 0;
+    margin-top: 10px;
+    margin-left: auto;
+    z-index: 20;
+  }
+  .social-container > a {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px 80px;
+  }
+
+
+  .whatsappsocial {
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 75px;
+  }
+}
+
+.navbar-shadow {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), transparent);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}

@@ -1,0 +1,1017 @@
+/* HOME PAGE SECTION */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+iframe#webpack-dev-server-client-overlay {
+  display: none !important;
+}
+.banner-logo {
+  position: relative;
+  top: 4rem;
+  width: 100%;
+  height: 92.5vh; 
+  background: url(/public/assets/Youtube\ cover.png) no-repeat center;
+  background-size: cover; 
+  background-size: 100% 95%; 
+
+}
+
+
+
+.main-logo {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+}
+.main-logo > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  transition: transform 1s ease-in-out;
+}
+
+.main-logo > p:hover {
+  transform: rotateY(360deg) scale(2.2);
+}
+
+.main-logo > h3 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.704);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  line-height: 0.3em;
+  margin-top: 100px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+.rows-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rows-program,
+.rows-location,
+.rows-rezervation {
+  width: 30%;
+  float: left;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.rows-info {
+  height: fit-content;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.43px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+  padding-left: 80px;
+  margin: 30px 40px;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 30px 20px 20px rgba(0, 0, 0, 0.9);
+  border: 1px solid black;
+}
+.rows-info :hover {
+  color: #ffa600;
+}
+
+.rows-info .icon-box {
+  font: normal normal normal 14px/1 FontAwesome;
+  width: 60px;
+  text-align: center;
+  font-size: 35px;
+  color: #014d55;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rows-info > h3 {
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 6px;
+  letter-spacing: 0.18em;
+  margin-top: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+}
+
+.rows-info > p {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0;
+  margin: 0 0 10px;
+  display: block;
+}
+.rows-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-icon-box {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  margin-left: -50px;
+  width: 95px;
+  height: 95px;
+  background: #fff;
+  font-size: 4px;
+  text-align: center;
+  transform: rotate(45deg);
+}
+.banner-icon-box > i {
+  padding-top: 6px;
+  padding-right: 16px;
+  display: inline-block;
+  transform: rotate(-45deg);
+  font-style: large;
+  box-sizing: border-box;
+}
+.banner-icon-small {
+  transform: rotate(316deg);
+  padding: 0px 0px 400px 160px;
+
+  /* HOME SECTION END */
+
+  /* ABOUT SECTION START */
+}
+
+.banner-key-image {
+  width: 100px; /* Ajustează dimensiunea dorită */
+  height: auto; /* Păstrează proporțiile imaginii */
+  display: block; /* Asigură o afișare corectă */
+  margin: 0 auto; /* Centrează imaginea în container */
+  transform: scale(1.2) rotate(315deg);
+}
+
+.aboutus {
+  aboutus {
+    padding: 80px 0px 0px;
+    display: block;
+    background: #212121;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(http://localhost:3000/static/media/LOGOBG.f030bce….png);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+}
+.container-about {
+  width: 100%;
+  height: 10rem;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutus .row-about-title span {
+  display: block;
+  color: #fff;
+  position: relative;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    text-shadow: 0 0 20px #59b8f4, 0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 30px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.row-about-title span {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  margin-top: 0;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+
+h6 {
+  font-size: 80px;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+  margin-top: 0px;
+  line-height: 0;
+  text-align: center;
+  color: #0177a9;
+  text-shadow: -1px -1px 0 #ffa600, 1px -1px 0 #ffa600, -1px 1px 0 #ffa600,
+    1px 1px 0 #ffa600;
+}
+
+.row-about-img-gallery {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  padding-top: 40px;
+}
+
+.image-about {
+  width: 270px;
+  height: auto;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.image-about:hover {
+  transform: scale(1.1);
+}
+
+.image-about:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 68%;
+  margin-top: 0px;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease;
+  box-shadow: 0 0 15px 0.1px white; /* umbra alba */
+
+}
+.image-about:hover:before {
+  opacity: 0;
+}
+
+.image-about:nth-of-type(2) {
+  transform: translateY(0px);
+  transition: transform 0.3s ease;
+}
+
+.image-about:nth-of-type(2):hover {
+  transform: scale(1.1) translateY(-20px);
+}
+
+.row-about-images p {
+  font-family: SANS-SERIF;
+  color: #ffffff;
+  line-height: 1.5em;
+  margin-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+}
+/* ABOUT SECTION END  */
+/* SERVICES SECTION START */
+
+.services {
+  padding: 80px 0 0px 0px;
+  display: block;
+  background: #212121;
+}
+
+.container-services {
+  width: 100%;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  color: grey;
+}
+
+.services .row-services-title span {
+  display: block;
+  color: #fff;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    text-shadow: 0 0 20px #59b8f4, 0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 30px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.row-services-title span {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.service-single {
+  text-align: center;
+  padding: 30px;
+}
+
+.service-single .icon-box-services {
+  background: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 14px 14px 14px 14px;
+  border: 2px solid #ffa600;
+  position: relative;
+  margin: 10px 10px;
+}
+
+.service-single .icon-box-outer {
+  padding: 5px;
+  background: #014d55;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 30px;
+  border: 3px solid #be9342;
+}
+.icon-box-services svg {
+  margin-top: 15px;
+  transition: transform 0.9s ease-in-out;
+}
+
+.icon-box-services svg:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.3);
+  }
+}
+
+.services-box-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-box-icons {
+  flex-direction: row;
+  align-items: center;
+}
+.service-single h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffa600;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  margin-bottom: 14px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.service-single p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.service-single h5 {
+  font-size: 16px;
+  background: #ffa600;
+  padding: 10px 15px;
+  color: #fff;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.service-single ul {
+  list-style: none; /* Elimină bulinele */
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1); /* Fundal ușor alb transparent */
+  backdrop-filter: blur(5px); /* Efect subtil de blur */
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Umbră subtilă */
+}
+
+.service-single ul li {
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.service-single .icon-box-services .icon-box-outer {
+  width: 100px;
+  height: 80px;
+  padding-top: 12px;
+  font-size: 40px;
+}
+
+/* SERVICE SECTION END  */
+/* GALLERY SECTION START  */
+
+.gallery {
+  padding: 70px 0 0px 0;
+  height: 115vh;
+  background: #212121;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/public/assets/LOGOBG.png);  
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+    
+}
+
+.container-gallery {
+  width: 100%;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery .row-gallery-title span {
+  display: block;
+  color: white;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    text-shadow: 0 0 20px #59b8f4, 0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 30px rgba(255, 255, 255, 0.2);
+  }
+}
+.row-gallery-title span {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.orizontalline1 {
+  width: 99.7%;
+  height: 3px;
+  background-color: #000;
+  transform: rotate(180deg);
+  border: 3px solid #014d55;
+  margin-top: 60px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+}
+
+.orizontalline2 {
+  width: 99.7%;
+  height: 3px;
+  background-color: #000;
+  transform: rotate(180deg);
+  border: 3px solid #014d55;
+  margin-top: 60px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+}
+/* GALLERY SECTION END  */
+
+/* PRICES SECTION START */
+
+.orizontalline3 {
+  width: 99.8%;
+  height: 3px;
+  background-color: #000;
+  transform: rotate(180deg);
+  border: 3px solid #014d55;
+  margin-top: 0px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+}
+
+.prices {
+  padding: 180px 0;
+  display: block;
+  background-color: #212121;
+  height: 100vh;
+}
+
+.container-prices {
+  width: 99.8%;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -70px;
+}
+
+.prices .row-prices-title span {
+  display: block;
+  color: white;
+  margin-left: 5px;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    text-shadow: 0 0 20px #5ab9ef, 0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 30px rgba(255, 255, 255, 0.2);
+  }
+}
+.row-prices-title span {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.row-prices {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row-prices-list img {
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  margin-top: 80px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.row-prices-list img:hover {
+  transform: translateY(-40px);
+}
+
+.row-prices-img {
+  width: 35%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 130px;
+  margin-top: -80px;
+}
+.prices-img {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.price-item {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1em;
+  display: table-cell;
+  white-space: nowrap;
+  width: 10%;
+  padding-right: 4px;
+}
+.price-line {
+  display: table-cell;
+  border-bottom: 1px dashed #fff;
+  position: relative;
+  bottom: 15px;
+}
+.price-amount {
+  text-align: right;
+  display: table-cell;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  width: 5%;
+  padding-left: 4px;
+}
+.row-prices-list {
+  width: 50%;
+  float: left;
+  position: relative;
+  margin-top: -50px;
+}
+/* PRICES SECTION END */
+
+.orizontalline4 {
+  width: 70%;
+  height: 3px;
+  background-color: #000;
+  transform: rotate(180deg);
+  border: 3px solid white;
+  margin-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+  margin-left: 110px;
+}
+
+/* CONTACT SECTION START */
+
+
+.contact {
+  padding: 180px 0px 0px;
+  display: block;
+  background: #212121;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/public/assets/LOGOBG.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.container-contact {
+  width: 99.8%;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-contact-title span {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.box-contact-phone,
+.box-contact-email,
+.box-contact-location,
+.box-contact-solcialmedia {
+  margin-bottom: 20px;
+}
+
+.box-contact-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.box-contact-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.box-contact-info {
+  display: inline-block;
+}
+.box-contact-location .box-contact-info {
+  margin-top: 20px;
+}
+.box-contact-location .box-contact-info a {
+  white-space: nowrap;
+}
+.icon.social {
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #5ce2e5;
+  text-align: center;
+}
+.icon.social svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+.box-contact-solcialmedia {
+  display: flex;
+}
+.box-contact-icofb,
+.box-contact-icoinst {
+  margin-right: 10px;
+}
+.largebox-contact {
+  padding: 0px 50px 20px 250px;
+}
+.map-container {
+  float: right;
+  margin-right: 150px;
+  margin-top: -410px;
+  border-radius: 10px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+  position: relative;
+  text-align: center;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.18em;
+  margin-top: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin-block-end: 3em;
+  margin-block-start: -3em;
+  margin-inline-start: 110px;
+}
+.map-container h1 {
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+.map-container,
+.contact-info-title {
+  position: relative;
+  text-align: center;
+}
+
+.contact-info-title h1 {
+  position: relative;
+  transform: translate(-26%, -500%);
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.footer-site-info {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  font-size: 14px;
+}
+
+/* CONTACT SECTION END  */
+
+/* MOBILE SECTION  */
+
+@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .aboutus {
+      padding: 40px 0 0;
+      background-attachment: scroll; /* Evită probleme cu fixed pe mobil */
+    }
+    .service-single {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 45px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    
+    /* Doar primul element să coboare mai jos */
+    .service-single:first-child {
+      margin-top: 60px; /* ajustează după cât vrei să coboare */
+    }
+    
+  
+    .row-about-title span {
+      font-size: 24px;
+      letter-spacing: 0.1em;
+    }
+  
+    h6 {
+      font-size: 40px;
+      line-height: 1;
+    }
+  
+    .row-about-img-gallery {
+      display: flex;
+      flex-wrap: wrap; /* permite trecerea pe rândul următor */
+      justify-content: center;
+      gap: 10px; /* spațiu între imagini */
+      height: auto;
+      padding-top: 20px;
+    }
+  
+    .image-about {
+      width: 45%; /* două pe rând */
+      height: auto;
+      margin-bottom: 10px;
+      transform: none !important; /* elimină offset-urile */
+    }
+  
+    .image-about:hover {
+      transform: scale(1.05);
+    }
+
+    .image-about:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin-top: 0px;
+      background: rgba(0, 0, 0, 0.2);
+      transition: opacity 0.3s ease;
+      box-shadow: 0 0 15px 0.1px white
+    }
+  
+    .text-box {
+      max-width: 90%;
+      margin-top: 20px;
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    p {
+      font-size: 14px;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-top: 0;
+    }
+  }
+  .container-about {
+    width: 100%;
+    height: 4rem;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gallery {
+  padding: 70px 0 0px 0;
+  height: 100vh;
+  background: #212121;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/public/assets/LOGOBG.png);  
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+    
+}
+@media (max-width: 768px) {
+
+  .react-players {
+    display: flex;
+    flex-direction: column;   /* una sub alta */
+    align-items: center;
+    position: static;         /* oprește suprapunerile */
+  }
+
+  .react-player1,
+  .react-player2 {
+    display: none;
+    position: static;         /* dezactivează poziția absolute */
+    transform: none;          /* reset transform */
+    margin-top: 80px;         /* spațiu între ele */
+    width: 100% !important;   /* ocupă toată lățimea */
+    max-width: 350px;         /* dimensiune bună pentru mobil */
+  }
+
+  .react-player1::before,
+  .react-player2::before {
+    display: none;            /* umbrele dispar pe mobil (altfel se strică layout-ul) */
+  }
+
+  .carousel-container {
+    max-width: 550px;
+    margin: 40px auto;
+    position: relative;
+    margin-top: -130px;
+
+  }
+  
+  .carousel-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+    max-height: 550px;
+    object-fit: contain;
+    display: block;
+    margin-top: 60px;
+    background-color: #000; /* opțional */
+    border-radius: 12px;
+    box-shadow: 0 0 15px 0.1px white;
+  }
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+  
+  .slick-dots li button:before {
+    font-family: "slick";
+    font-size: 8px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.85;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }  
+  .map-container {
+    float: right;
+    margin-left: -40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+    position: relative;
+    text-align: center;
+}
+.contact-info-title h1 {
+  position: relative;
+  transform: translate(-2%, -350%);
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.largebox-contact {
+  margin-top: -60px;
+}
+.map-container h1 {
+  position: absolute;
+  top: -50px;
+  left: 80px;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.map-frame {
+  border: 0;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+}
+.contact {
+  padding: 100px 0px 0px;
+  display: block;
+  background: #212121;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(http://localhost:3000/static/media/LOGOBG.f030bce….png);
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+@media (max-width: 768px) {
+  .banner-logo {
+      height: 40vh; /* scazi înălțimea pentru ecranele mici */
+      background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-logo {
+      height: 35vh;
+  }
+}
+.banner-icon-box {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  margin-left: -50px;
+  width: 95px;
+  height: 95px;
+  background: #fff;
+  font-size: 4px;
+  text-align: center;
+  transform: rotate(45deg);
+}
+
+
+}
+}
