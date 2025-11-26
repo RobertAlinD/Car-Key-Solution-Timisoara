@@ -325,7 +325,7 @@
 
   .nav-items > a:hover {
     border-radius: 10px;
-    background-color: #212121;
+    background-color: #e2e2e2;
     box-shadow: 0 0 20px rgba(255, 255, 255, 1);
     transform: scale(1.1);
   }
@@ -347,12 +347,13 @@
 
   .nav.active .nav-items {
     display: flex;
+    background-color: #000000;
   }
 
   .nav-toggle {
     margin-top: 20px;
     display: block;
-    padding-right: 40px;
+    padding-right: 10px;
   }
 
   .navbar-logo-box {

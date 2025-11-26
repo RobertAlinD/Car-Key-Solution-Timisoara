@@ -760,6 +760,7 @@ h1 {
   transform: translate(-26%, -500%);
   margin: 0;
   color: rgb(255, 255, 255);
+  margin-left: 20PX;
 }
 .footer-site-info {
   text-align: center;
@@ -808,7 +809,7 @@ h1 {
       justify-content: center;
       gap: 10px; /* spațiu între imagini */
       height: auto;
-      padding-top: 20px;
+      padding-top: 140px;
     }
   
     .image-about {
@@ -857,7 +858,7 @@ h1 {
 }
 .gallery {
   padding: 70px 0 0px 0;
-  height: 100vh;
+  height: 120vh;
   background: #212121;
   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/public/assets/LOGOBG.png);  
   background-position: center;
@@ -947,7 +948,7 @@ h1 {
   }  
   .map-container {
     float: right;
-    margin-left: -40px;
+    margin-left: -50px;
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
@@ -966,7 +967,7 @@ h1 {
 .map-container h1 {
   position: absolute;
   top: -50px;
-  left: 80px;
+  left: 60px;
   margin: 10px;
   color: rgb(255, 255, 255);
 }
@@ -977,15 +978,21 @@ h1 {
   width: 350px;
   height: 350px;
 }
-.contact {
-  padding: 100px 0px 0px;
-  display: block;
-  background: #212121;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(http://localhost:3000/static/media/LOGOBG.f030bce….png);
-  background-position: center;
-  background-repeat: repeat;
-  background-attachment: fixed;
+@media (max-width: 768px) {
+  .contact {
+      min-height: 180vh; /* ocupă tot ecranul */
+      margin-top: -100px; /* mai puțin agresiv decât -320px */
+      padding: 160px 0 40px; /* padding bottom ca să nu apară alb */
+      display: block;
+      background: #212121;
+      background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(http://localhost:3000/static/media/LOGOBG.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; /* ocupă tot containerul */
+      background-attachment: scroll; /* fixed nu funcționează bine pe mobile */
+  }
 }
+
 @media (max-width: 768px) {
   .banner-logo {
       height: 40vh; /* scazi înălțimea pentru ecranele mici */
@@ -1011,7 +1018,14 @@ h1 {
   text-align: center;
   transform: rotate(45deg);
 }
-
-
+}
+.container-contact {
+  width: 99.8%;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
 }
 }
