@@ -124,7 +124,7 @@ export default function Home() {
                   <div className="banner-icon-box2">
                     <i className="banner-icon2"></i>
                     <img
-                      src="/assets/BMWKey2.png"
+                      src="/assets/NewBMWKey2.jpeg"
                       alt="BMW Key"
                       className="banner-key-image2"
                     />
