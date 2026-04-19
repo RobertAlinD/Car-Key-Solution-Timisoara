@@ -1,10 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faClock,
-  faLocationDot,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+
 
 import { Layout } from "../../components/Layout/Layout";
 import { Carousel } from "../../components/Carousel/Carousel";
@@ -125,6 +120,7 @@ export default function Home() {
                     src="./assets/InsigniaAbout1.jpeg"
                     width={290}
                     height={340}
+                    
                   />
                 </div>
                 <div className="image-about">
