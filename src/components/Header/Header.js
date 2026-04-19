@@ -49,8 +49,8 @@ const Header = () => {
             </button>
 
             <div className="nav-items">
-  <Link to="#" className="disabled-link">Upgrade / Retrofit</Link>
-  <Link to="#" className="disabled-link">Smart Key LCD</Link>
+  <Link to="#" className="disabled-link">Upgrade | Retrofit</Link>
+  <Link to="#" className="disabled-link">CHEI SMART | SMART KEY</Link>
   <Link to="#" className="disabled-link">Reparații Chei Auto</Link>
   <Link
     to="#"

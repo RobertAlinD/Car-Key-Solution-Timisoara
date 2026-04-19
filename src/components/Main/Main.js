@@ -51,7 +51,7 @@ export default function Home() {
         <section className="services" id="services">
           <div className="row-services-title">
 
-            <span> SERVICII </span>
+            <span> SERVICII OFERITE</span>
             <h6>...</h6>
           </div>
 
@@ -72,43 +72,45 @@ export default function Home() {
               </div>
               <h3>Upgrade / Retrofit </h3>
               <ul>
-              <li>Upgrade complet al cheilor auto</li>
-<li>Transformare chei clasice în modele noi</li>
-<li>Soluții personalizate </li>
+              <li>✅ Upgrade complet al cheilor auto</li>
+<li>✅ Transformare chei clasice în modele noi</li>
+<li>✅ Soluții personalizate </li>
               </ul>
             </div>
             <div className="service-single">
               <div className="icon-box-outer">
                 <div className="icon-box-services">
                   <div className="iconsvg">
-                    <img src="./assets/SmartKey2.png" alt="Smart Key" width="100" height="100" />
+                    <img src="./assets/SmartKey2.png" alt="Smart Key" width="100" height="100"  />
                   </div>
                 </div>
               </div>
-              <h3>Smart Key Display</h3>
+              <h3>Chei Smart | Smart Key</h3>
               <ul>
-                <li>Chei inteligente cu ecran </li>
-                <li>Funcție Keyless Go</li>
-                <li>Design modern pentru confort și siguranță</li>
+                <li>✅ Keyless Entry </li>
+                <li>✅ Portbagaj inteligent </li>
+                <li>✅ Ridicare automată a geamurilor </li>
               </ul>
             </div>
             <div className="service-single">
               <div className="icon-box-outer">
                 <div className="icon-box-services">
                   <div className="iconsvg">
-                    <img src="./assets/UnlockCar3.png" alt="Unlock Car" width="100" height="100" />
+                    <img src="./assets/RepairKey4.png" alt="Unlock Car" width="300" height="200" style={{ marginTop: "-30px" }}
+ />
                   </div>
                 </div>
               </div>
               <h3>Reparații Chei Auto</h3>
               <ul>
-              <li>Reparație rapidă</li>
-<li>Fără daune</li>
-<li>Profesional și sigur</li>
+              <li>✅ Reparație rapidă</li>
+<li>✅ Fără daune</li>
+<li>✅ Profesional și sigur</li>
 
 
               </ul>
             </div>
+            
           </div>
           <div className="orizontalline2"></div>
         </section>
@@ -140,49 +142,45 @@ export default function Home() {
               <div className="row-about-img-gallery">
                 <div className="image-about">
                   <img
-                    src="./assets/Retrosite1.jpeg"
+                    src="./assets/Smart11.jpeg"
                     width={290}
                     height={340}
                   />
                 </div>
                 <div className="image-about">
                   <img
-                    src="./assets/Retrosite2.jpeg"
+                    src="./assets/Smart3.jpeg"
                     width={290}
                     height={340}
                   />
                 </div>
                 <div className="image-about">
                   <img
-                    src="./assets/Retrosite4.jpeg"
+                    src="./assets/Smart4.jpeg"
                     width={290}
                     height={340}
                   />
                 </div>
                 <div className="image-about">
                   <img
-                    src="./assets/Retrofite3.jpeg"
+                    src="./assets/Smart22.jpeg"
                     width={290}
                     height={340}
                   />
                 </div>
               </div>
               <div className="text-box">
-                <p>
-                La <b>Car Key Solution Timișoara</b>, oferim servicii specializate pentru chei auto și soluții electronice avansate,
-utilizând echipamente moderne și tehnologie profesională pentru intervenții precise și rapide.
+              <p>
+    ✅ La <b>Car Key Solution Timișoara</b>, oferim servicii specializate pentru chei auto și soluții electronice avansate,
+    utilizând echipamente moderne și tehnologie profesională pentru intervenții precise și rapide.
 
+    <span> 💯 <b>Upgrade chei smart display / Smart Key</b> – Realizăm upgrade de la chei clasice la chei smart cu display, pentru funcționalitate modernă și un aspect premium.</span>
+    <span> 💯 <b>Reparații chei digitale originale BMW</b> – Reparam chei BMW cu display: înlocuire acumulator, carcasă, butoane sau display defect.</span>
+    <span> 💯 <b>Reparații chei auto / telecomenzi auto</b> – Înlocuim butoane, carcase, microcontacte și remediem probleme electronice.</span>
 
-<span>🔑 <b>Upgrade chei Smart Display / Smart Key</b> – Realizăm upgrade de la chei clasice la chei smart cu display, pentru funcționalitate modernă și un aspect premium.</span>
-<span>🔧 <b>Reparații chei digitale originale BMW</b> – Reparam chei BMW cu display: înlocuire acumulator, carcasă, butoane sau display defect.</span>
-<span>🔑 <b>Chei auto simple cu cip</b> – Realizăm programare, clonare și furnizare de chei simple cu transponder.</span>
-<span>🛠️ <b>Reparații chei auto / telecomenzi auto</b> – Înlocuim butoane, carcase, microcontacte și remediem probleme electronice.</span>
-<span>🚗 <b>Deblocări auto</b> – Deblocăm vehicule rapid și fără daune, în situațiile în care cheia este blocată în interior.</span>
-
-<span>📍 Servim <b>Timișoara și împrejurimile</b>, cu promptitudine și profesionalism.</span>
-<span>📞 <b>Contactează-ne</b> pentru detalii sau programări!</span>
-
-                </p>
+    <span>📦 <b>Lucrăm la nivel național și internațional</b> – Pentru orice serviciu oferit, poți trimite cheia prin curier din România sau din străinătate, iar noi o procesăm și ți-o returnăm rapid și în siguranță.</span>    
+    <span>📞 <b>Contactează-ne</b> pentru detalii sau programări!</span>
+</p>
               </div>
 
 
@@ -217,7 +215,8 @@ utilizând echipamente moderne și tehnologie profesională pentru intervenții 
             <div className="row-gallery">
               <div className="row-gallery-box">
                 <div className="row-gallery-title">
-                  <span> Smart Key Display </span>
+                  <span> CHEI SMART | SMART KEY
+ </span>
                   <h6>...</h6>
                   <div className="react-players">
                     <div className="react-player1">
@@ -250,6 +249,7 @@ utilizând echipamente moderne și tehnologie profesională pentru intervenții 
               </div>
             </div>
           </div>
+
           
         </section>
         <div className="orizontalline3"></div>
@@ -273,8 +273,8 @@ utilizând echipamente moderne și tehnologie profesională pentru intervenții 
             <div className="row-prices">
               <div className="row-prices-box">
                 <div className="row-prices-title">
-                  <span> Deblocări </span>
-                  <span> Auto </span>
+                  <span> REPARAȚII CHEI </span>
+                  <span> AUTO </span> 
 
                   <h6>...</h6>
                 </div>
@@ -283,26 +283,20 @@ utilizând echipamente moderne și tehnologie profesională pentru intervenții 
             <div className="row-prices">
               <div className="row-prices-img">
                 <div className="prices-img">
-                  <img src="./assets/DeblocariAuto.jpeg" />
-                </div>
-                <div className="prices-img">
-                  <img src="./assets/UnlockService4.jpeg" />
+                  <img src="./assets/RepairKey1.jpeg" />
                 </div>
               </div>
               <div className="row-prices-list">
-                <img src="./assets/UnlockImage.png" />
+                <img src="./assets/BMWVector.png" />
                 <div className="text-box2">
                   <p>
-                    La <b>Car Key Solution Timișoara</b>, oferim servicii profesionale de deblocare auto,
-                    utilizând echipamente specializate pentru a interveni rapid și fără daune asupra vehiculului.
-                    Indiferent dacă ți-ai uitat cheia în mașină sau sistemul de închidere nu mai funcționează, suntem aici să te ajutăm.
 
-                    <span>🔓 <b>Deblocare uși auto</b> – Acces rapid și sigur fără deteriorarea încuietorii.</span>
-                    <span>🔑 <b>Deschidere auto cu chei speciale</b> – Folosim unelte profesionale pentru a deschide ușa eficient.</span>
-                    <span>🛠 <b>Siguranță și profesionalism</b> – Echipa noastră lucrează atent pentru a preveni orice deteriorare.</span>
+<span>🔧 <b>Reparații chei smart / smart key </b> – Diagnosticare și remediere pentru chei cu display sau carcasă (probleme electronice, baterie, semnal slab, contact cu lichide).</span>
+<span>🔑 <b>Reparații chei auto clasice</b> – Înlocuire carcase, lame, butoane și refacere funcționalitate completă.</span>
+<span>📡 <b>Reparații telecomenzi auto</b> – Remediem defecte de transmisie, microcontacte uzate și probleme de sincronizare.</span>
 
-                    <span>📍 Servim clienții din <b>Timișoara și împrejurimi</b>, oferind intervenții rapide la fața locului.</span>
-                    <span>📞 <b>Contactează-ne</b> pentru asistență imediată!</span>
+<span>📍 Servim <b>Timișoara și împrejurimile</b>, cu promptitudine și profesionalism.</span>
+<span>📞 <b>Contactează-ne</b> pentru detalii sau programări!</span>
                   </p>
                 </div>
               </div>

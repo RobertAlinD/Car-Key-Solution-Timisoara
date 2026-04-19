@@ -290,7 +290,7 @@ p span {
 display: block;
 position: absolute;
 left: 50%;
-bottom: -846px;
+bottom: -875px;
 margin-left: -50px;
 width: 95px;
 height: 95px;
@@ -371,7 +371,7 @@ top: 30px;
 
 .banner-icon-box4 {
   
-  margin-top: 3642px;
+  margin-top: 3622px;
   display: block;
   position: absolute;
   top: 20px;
@@ -574,6 +574,17 @@ top: 30px;
   margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width: 768px) {
+
+.gallery .row-gallery-title span {
+  display: block;
+  color: #fff;
+  position: relative;
+  animation: glow 1s infinite alternate;
+  font-size: 25px;
+}
 }
 
 .gallery .row-gallery-title span {

@@ -20,6 +20,17 @@
   color: grey;
 }
 
+@media (max-width: 768px) {
+  .services .row-services-title span {
+    display: block;
+    color: #fff;
+    animation: glow 1s infinite alternate;
+    font-size: 25px;
+
+  }
+}
+
+
 .services .row-services-title span {
   display: block;
   color: #fff;

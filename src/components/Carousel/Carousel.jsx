@@ -17,15 +17,17 @@ export function Carousel() {
   };
 
   const images = [
-    "./assets/Gal1.jpeg",
-    "./assets/Gal23.jpeg",
-    "./assets/Gal20.jpeg",
-    "./assets/Gal3.jpeg",
-    "./assets/Gal6.jpeg",
-    "./assets/Gal4.jpeg",
-    "./assets/Gal13.jpeg",
-    "./assets/Gal2.jpeg",
-    "./assets/Gal28.jpeg",
+    "./assets/GAL1.jpeg",
+    "./assets/GAL2.jpeg",
+    "./assets/GAL3.jpeg",
+    "./assets/GAL12.jpeg",
+    "./assets/GAL13.jpeg",
+    "./assets/GAL15.jpeg",
+    "./assets/GAL9.jpeg",
+    "./assets/GAL10.jpeg",
+    "./assets/Smart2.jpeg",
+
+
   ];
 
   return (

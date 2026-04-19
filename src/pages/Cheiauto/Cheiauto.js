@@ -62,7 +62,7 @@ export default function Cheiauto() {
                   <div className="icon-box-services">
                     <div className="iconsvg">
                       <img
-                        src="./assets/UnlockCar3.png"
+                        src="./assets/RepairKey4.png"
                         alt="Unlock Car"
                         width="100"
                         height="100"

@@ -145,9 +145,8 @@ export default function Home() {
               <p>
               🔑 Upgrade chei Smart Display / Smart Key – Realizăm upgrade de la chei clasice la chei smart cu display, pentru funcționalitate modernă și un aspect premium.
 🔧 Reparații chei digitale originale BMW – Reparam chei BMW cu display: înlocuire acumulator, carcasă, butoane sau display defect.
-🔑 Chei auto simple cu cip – Realizăm programare, clonare și furnizare de chei simple cu transponder.
 🛠️ Reparații chei auto / telecomenzi auto – Înlocuim butoane, carcase, microcontacte și remediem probleme electronice.
-🚗 Deblocări auto – Deblocăm vehicule rapid și fără daune, în situațiile în care cheia este blocată în interior.
+🚗 Deblocări auto VAG – Deblocăm vehicule rapid și fără daune, în situațiile în care cheia este blocată în interior.
 
 📍 Servim Timișoara și împrejurimile, cu promptitudine și profesionalism.
 📞 Contactează-ne pentru detalii sau programări!

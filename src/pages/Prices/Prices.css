@@ -23,6 +23,17 @@
   margin-top: -120px;
 }
 
+
+@media (max-width: 768px) {
+.prices .row-prices-title span {
+  display: block;
+  color: white;
+  margin-left: 5px;
+  animation: glow 1s infinite alternate;
+  font-size: 25px;
+}
+}
+
 .prices .row-prices-title span {
   display: block;
   color: white;
