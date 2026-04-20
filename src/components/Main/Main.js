@@ -1,10 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faClock,
-  faLocationDot,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
 
 import { Layout } from "../../components/Layout/Layout";
 import { Carousel } from "../../components/Carousel/Carousel";
@@ -283,11 +277,11 @@ export default function Home() {
             <div className="row-prices">
               <div className="row-prices-img">
                 <div className="prices-img">
-                  <img src="./assets/RepairKey1.jpeg" />
+                  <img alt="Chei auto" src="./assets/RepairKey1.jpeg" />
                 </div>
               </div>
               <div className="row-prices-list">
-                <img src="./assets/BMWVector.png" />
+              <img alt="Chei auto" src="./assets/BMWVector.png" />
                 <div className="text-box2">
                   <p>
 
@@ -388,7 +382,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     a="true"
                   >
-                   Dumbravita, Timis 
+                   Timișoara, Timis 
                   </a>{" "}
                 </div>
                 <div className="box-contact-info">

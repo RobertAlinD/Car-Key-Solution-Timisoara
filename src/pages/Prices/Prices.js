@@ -19,11 +19,11 @@ export default function Preturi() {
             <div className="row-prices">
               <div className="row-prices-img">
                 <div className="prices-img">
-                  <img src="./assets/DeblocariAuto.jpeg" />
+                <img alt="Chei auto" src="./assets/DeblocariAuto.jpeg" />
                 </div>
               </div>
               <div className="row-prices-list">
-                <img src="./assets/chair.png" />
+              <img alt="Chei auto" src="./assets/chair.png" />
                 <div className="prices-list-details">
                   <div className="price-item">Tuns + Styling </div>
                   <div className="price-line"></div>

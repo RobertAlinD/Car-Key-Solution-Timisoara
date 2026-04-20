@@ -244,11 +244,11 @@ export default function Home() {
             <div className="row-prices">
               <div className="row-prices-img">
                 <div className="prices-img">
-                  <img src="./assets/DeblocariAuto.jpeg" />
+                <img alt="Chei auto" src="./assets/DeblocariAuto.jpeg" />
                 </div>
               </div>
               <div className="row-prices-list">
-                <img src="./assets/UnlockImage.png" />
+              <img alt="Chei auto" src="./assets/UnlockImage.png" />
               </div>
               <div className="prices-list-details">
                 <p>
