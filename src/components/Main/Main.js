@@ -142,6 +142,7 @@ export default function Home() {
                     src="./assets/Smart11.jpeg"
                     width={290}
                     height={340}
+                    alt="Smart key Audi"
                   />
                 </div>
                 <div className="image-about">
@@ -149,6 +150,7 @@ export default function Home() {
                     src="./assets/Smart3.jpeg"
                     width={290}
                     height={340}
+                    alt="Smart key BMW"
                   />
                 </div>
                 <div className="image-about">
@@ -156,6 +158,7 @@ export default function Home() {
                     src="./assets/Smart4.jpeg"
                     width={290}
                     height={340}
+                    alt="Smart key Mercedes"
                   />
                 </div>
                 <div className="image-about">
@@ -163,6 +166,7 @@ export default function Home() {
                     src="./assets/Smart22.jpeg"
                     width={290}
                     height={340}
+                    alt="Cheie smart BMW"
                   />
                 </div>
               </div>
