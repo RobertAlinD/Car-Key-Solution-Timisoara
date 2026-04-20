@@ -75,8 +75,7 @@ export default function Home() {
               <div className="icon-box-outer">
                 <div className="icon-box-services">
                   <div className="iconsvg">
-                    <img src="./assets/SmartKey2.png" alt="Smart Key" width="100" height="100"  />
-                  </div>
+                  <img src="/assets/SmartKey2.png" alt="Smart Key" width="100" height="100" />                  </div>
                 </div>
               </div>
               <h3>Chei Smart | Smart Key</h3>
@@ -90,8 +89,12 @@ export default function Home() {
               <div className="icon-box-outer">
                 <div className="icon-box-services">
                   <div className="iconsvg">
-                    <img src="./assets/RepairKey4.png" alt="Unlock Car" width="300" height="200" style={{ marginTop: "-30px" }}
- />
+                  <img
+  src="./assets/RepairKey4.png"
+  alt="Unlock Car"
+  width="300"
+  height="200"
+  style={{ marginTop: "-30px" }} />
                   </div>
                 </div>
               </div>
