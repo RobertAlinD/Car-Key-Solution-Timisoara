@@ -1,6 +1,5 @@
 import React from "react";
 import "./Blog.css";
-import { Link } from "react-router-dom";
 
 // <Link to="/blog">Blog</Link>
 

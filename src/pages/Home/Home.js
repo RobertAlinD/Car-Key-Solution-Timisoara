@@ -120,6 +120,7 @@ export default function Home() {
                     src="./assets/InsigniaAbout1.jpeg"
                     width={290}
                     height={340}
+                    alt="cheie smart"
                     
                   />
                 </div>
@@ -128,6 +129,7 @@ export default function Home() {
                     src="./assets/AudiAbout5.jpeg"
                     width={358}
                     height={364}
+                    alt="smart key"
                   />
                 </div>
                 <div className="image-about">
@@ -135,6 +137,7 @@ export default function Home() {
                     src="./assets/InsigniaAbout3.jpeg"
                     width={290}
                     height={340}
+                    alt="smart key"
                   />
                 </div>
               </div>

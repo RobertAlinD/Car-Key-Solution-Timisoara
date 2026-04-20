@@ -85,8 +85,7 @@ export default function Footer() {
               <div className="box-contact-info">
                 <a
                   href="https://maps.app.goo.gl/VcUjFa4pRwXDp3Jp9"
-                  target="_blank"
-                  rel="noopener"
+                  target="_blank" rel="noreferrer"
                   a="true"
                 >
                   Strada Petre Tutea, Dumbravita, Timis.
@@ -102,8 +101,7 @@ export default function Footer() {
                 <a
                   href="https://www.facebook.com/CheiAutoSolutionTimisoara"
                   className="social icon"
-                  target="_blank"
-                  rel="noopener"
+                  target="_blank" rel="noreferrer"
                   a="true"
                 >
                   {" "}
@@ -119,8 +117,7 @@ export default function Footer() {
                 <a
                   href="https://www.instagram.com/chei_auto_solution_timisoara/"
                   className="social icon"
-                  target="_blank"
-                  rel="noopener"
+                  target="_blank" rel="noreferrer"
                   a="true"
                 >
                   {" "}
@@ -136,8 +133,7 @@ export default function Footer() {
                 <a
                   href="https://www.youtube.com/@andrijaradevici8977"
                   className="social icon"
-                  target="_blank"
-                  rel="noopener"
+                  target="_blank" rel="noreferrer"
                   a="true"
                 >
                   {" "}
