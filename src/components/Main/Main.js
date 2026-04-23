@@ -30,7 +30,7 @@ export default function Home() {
             <i className="banner-icon"></i>
             <img
               src="/assets/BMWKey.png"
-              alt="BMW Key"
+              alt="Cheie Smart BMW | Smart Key BMW Keyless Entry Timișoara"
               className="banner-key-image"
             />
             <div className="banner-icon-small">
@@ -56,7 +56,7 @@ export default function Home() {
                   <div className="iconsvg">
                   <img
   src="./assets/CarKey123.png"
-  alt="Car Key"
+  alt="Reparatii chei BMW Smart Key Keyless Entry Timișoara"
   width="180"
   height="160"
   style={{ marginTop: "-10px" }}
@@ -75,7 +75,7 @@ export default function Home() {
               <div className="icon-box-outer">
                 <div className="icon-box-services">
                   <div className="iconsvg">
-                  <img src="/assets/SmartKey2.png" alt="Smart Key" width="100" height="100" />                  </div>
+                  <img src="/assets/SmartKey2.png" alt="Smart Key auto cu keyless entry și display Timișoara" width="100" height="100" />                  </div>
                 </div>
               </div>
               <h3>Chei Smart | Smart Key</h3>
@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="iconsvg">
                   <img
   src="./assets/RepairKey4.png"
-  alt="Unlock Car"
+  alt="Reparații chei auto și telecomenzi Timișoara"
   width="300"
   height="200"
   style={{ marginTop: "-30px" }} />
@@ -124,7 +124,7 @@ export default function Home() {
                     <i className="banner-icon2"></i>
                     <img
                       src="/assets/NewBMWKey2.jpeg"
-                      alt="BMW Key"
+                      alt="Upgrade cheie auto clasică la smart key"
                       className="banner-key-image2"
                     />
                   </div>
@@ -142,7 +142,7 @@ export default function Home() {
                     src="./assets/Smart11.jpeg"
                     width={290}
                     height={340}
-                    alt="Smart key Audi"
+                    alt="Cheie BMW Smart Key cu display digital și Keyless Entry"
                   />
                 </div>
                 <div className="image-about">
@@ -150,7 +150,7 @@ export default function Home() {
                     src="./assets/Smart3.jpeg"
                     width={290}
                     height={340}
-                    alt="Smart key BMW"
+                    alt="Cheie digitală BMW cu funcții Keyless și Comfort Access"
                   />
                 </div>
                 <div className="image-about">
@@ -158,7 +158,7 @@ export default function Home() {
                     src="./assets/Smart4.jpeg"
                     width={290}
                     height={340}
-                    alt="Smart key Mercedes"
+                    alt="Cheie Smart Mercedes Smart Key Keyless Go și Keyless Entry"
                   />
                 </div>
                 <div className="image-about">
@@ -166,7 +166,7 @@ export default function Home() {
                     src="./assets/Smart22.jpeg"
                     width={290}
                     height={340}
-                    alt="Cheie smart BMW"
+                    alt="Smart Key Audi cu Keyless Entry și funcții confort"
                   />
                 </div>
               </div>
@@ -190,7 +190,7 @@ export default function Home() {
                   <i className="banner-icon3"></i>
                   <img
                     src="/assets/LamboKey3.png"
-                    alt="Lambo Key"
+                    alt="Reparații chei auto electronice și înlocuire carcasă"
                     className="banner-key-image3"
                   />
                   <div className="banner-icon-small3">
@@ -258,7 +258,7 @@ export default function Home() {
           <i className="banner-icon4"></i>
           <img
             src="/assets/GTRKey4.png"
-            alt="GTR Key"
+            alt="Smart Key digital BMW Audi Mercedes reparații și upgrade"
             className="banner-key-image4"
           />
           <div className="banner-icon-small4">
@@ -284,11 +284,11 @@ export default function Home() {
             <div className="row-prices">
               <div className="row-prices-img">
                 <div className="prices-img">
-                  <img alt="Chei auto" src="./assets/RepairKey1.jpeg" />
+                  <img alt="Reparații chei BMW Smart Key originale cu display" src="./assets/RepairKey1.jpeg" />
                 </div>
               </div>
               <div className="row-prices-list">
-              <img alt="Chei auto" src="./assets/BMWVector.png" />
+              <img alt="Înlocuire carcasă cheie auto și butoane telecomandă" src="./assets/BMWVector.png" />
                 <div className="text-box2">
                   <p>
 

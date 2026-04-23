@@ -37,7 +37,7 @@ const Header = () => {
       <header>
         <nav ref={menuRef} className={`nav ${isMenuOpen ? "active" : ""}`}>
           <div className="navbar-logo-box">
-            <img src="./assets/logopageleft.png" alt="Logo" />
+            <img src="./assets/logopageleft.png" alt="Logo Smart Key Timisoara " />
           </div>
 
           <div className={`nav ${isMenuOpen ? "active" : ""}`}>
