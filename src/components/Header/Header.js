@@ -74,7 +74,7 @@ const Header = () => {
               <FontAwesomeIcon icon={faFacebook} />
             </a>
             <a
-              href="https://www.instagram.com/chei_auto_solution_timisoara/"
+              href="https://www.instagram.com/car_key_solution_timisoara/"
               className="facebooksocial"
               target="_blank"
               rel="noopener noreferrer"
