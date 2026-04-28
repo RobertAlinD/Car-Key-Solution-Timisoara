@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CarKeySolution",
+  "name": "Car Key Solution Timisoara - Chei Smart Auto",
   "icons": [
     {
-      "src": "./assets/logonav.png",
+      "src": "./assets/logopageleft.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "./assets/logonav.png",
+      "src": "./assets/logopageleft.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./assets/logonav.png",
+      "src": "./assets/logopageleft.png",
       "type": "image/png",
       "sizes": "512x512"
     }
