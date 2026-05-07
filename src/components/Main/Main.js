@@ -16,7 +16,9 @@ export default function Home() {
           <div className="container">
 
 
-            <div className="rows-main">
+          <div className="rows-main">
+       {/* Titlul principal al site-ului - Esențial pentru Google */}
+       <h1 className="seo-main-title">Chei Smart Auto| Smart Key</h1>
               <div className="rows-program">
 
               </div>
@@ -30,7 +32,7 @@ export default function Home() {
             <i className="banner-icon"></i>
             <img
               src="/assets/BMWKey.png"
-              alt="Cheie Smart BMW | Smart Key BMW Keyless Entry Timișoara"
+              alt="Cheie Smart BMW | Smart Key BMW Keyless Entry"
               className="banner-key-image"
             />
             <div className="banner-icon-small">
@@ -45,7 +47,7 @@ export default function Home() {
         <section className="services" id="services">
           <div className="row-services-title">
 
-            <span> SERVICII OFERITE</span>
+            <h2> SERVICII OFERITE</h2>
             <h6>...</h6>
           </div>
 
@@ -56,7 +58,7 @@ export default function Home() {
                   <div className="iconsvg">
                   <img
   src="./assets/CarKey123.png"
-  alt="Reparatii chei BMW Smart Key Keyless Entry Timișoara"
+  alt="Reparatii chei BMW Smart Key Keyless Entry"
   width="180"
   height="160"
   style={{ marginTop: "-10px" }}
@@ -75,7 +77,7 @@ export default function Home() {
               <div className="icon-box-outer">
                 <div className="icon-box-services">
                   <div className="iconsvg">
-                  <img src="/assets/SmartKey2.png" alt="Smart Key auto cu keyless entry și display Timișoara" width="100" height="100" />                  </div>
+                  <img src="/assets/SmartKey2.png" alt="Smart Key auto cu keyless entry și display" width="100" height="100" />                  </div>
                 </div>
               </div>
               <h3>Chei Smart | Smart Key</h3>
@@ -91,7 +93,7 @@ export default function Home() {
                   <div className="iconsvg">
                   <img
   src="./assets/RepairKey4.png"
-  alt="Reparații chei auto și telecomenzi Timișoara"
+  alt="Reparații chei auto și telecomenzi"
   width="300"
   height="200"
   style={{ marginTop: "-30px" }} />
@@ -139,48 +141,49 @@ export default function Home() {
               <div className="row-about-img-gallery">
                 <div className="image-about">
                   <img
-                    src="./assets/Smart11.jpeg"
+                    src="./assets/smart-key-bmw-timisoara.jpeg"
                     width={290}
                     height={340}
-                    alt="Cheie BMW Smart Key cu display digital și Keyless Entry"
+                    alt="Cheie digitală BMW Seria 5 G30 upgrade smart key cu display"
                   />
                 </div>
                 <div className="image-about">
                   <img
-                    src="./assets/Smart3.jpeg"
+                    src="./assets/cheie-smart-bmw.jpeg"
                     width={290}
                     height={340}
-                    alt="Cheie digitală BMW cu funcții Keyless și Comfort Access"
+                    alt="Retrofit Comfort Access BMW Seria 3 F30 cheie inteligentă"
                   />
                 </div>
                 <div className="image-about">
                   <img
-                    src="./assets/Smart4.jpeg"
+                    src="./assets/cheie-smart-mercedes.jpeg"
                     width={290}
                     height={340}
-                    alt="Cheie Smart Mercedes Smart Key Keyless Go și Keyless Entry"
+                    alt="Cheie Smart Mercedes-Benz Clasa E upgrade keyless go display"
                   />
                 </div>
                 <div className="image-about">
                   <img
-                    src="./assets/Smart22.jpeg"
+                    src="./assets/smart-key-audi.jpeg"
                     width={290}
                     height={340}
-                    alt="Smart Key Audi cu Keyless Entry și funcții confort"
+                    alt="Cheie Smart Audi A4 A6 Q5 activare keyless entry și portbagaj"
                   />
                 </div>
               </div>
               <div className="text-box">
               <p>
-    ✅ La <b>Car Key Solution Timișoara</b>, oferim servicii specializate pentru chei auto și soluții electronice avansate,
-    utilizând echipamente moderne și tehnologie profesională pentru intervenții precise și rapide.
+    <h2>✅  De ce să alegi Car Key Solution pentru Smart Key în Timișoara?</h2>
+    <h2>💯 <b>Upgrade chei smart display / Smart Key</b> – Realizăm upgrade de la chei clasice la chei smart cu display, pentru funcționalitate modernă și un aspect premium.</h2>
+    
+    <h2>💯 <b>Reparații chei digitale originale BMW</b> – Reparam chei BMW cu display: înlocuire acumulator, carcasă, butoane sau display defect.</h2>
+    
+    <h2>💯 <b>Reparații chei auto / telecomenzi auto</b> – Înlocuim butoane, carcase, microcontacte și remediem probleme electronice.</h2>
 
-    <span> 💯 <b>Upgrade chei smart display / Smart Key</b> – Realizăm upgrade de la chei clasice la chei smart cu display, pentru funcționalitate modernă și un aspect premium.</span>
-    <span> 💯 <b>Reparații chei digitale originale BMW</b> – Reparam chei BMW cu display: înlocuire acumulator, carcasă, butoane sau display defect.</span>
-    <span> 💯 <b>Reparații chei auto / telecomenzi auto</b> – Înlocuim butoane, carcase, microcontacte și remediem probleme electronice.</span>
+    <h2>📦 <b>Livrare Curier</b> – Upgrade Smart Key disponibil în România și în străinătate.</h2>
 
-    <span>📦 <b>Lucrăm la nivel național și internațional</b> – Pentru orice serviciu oferit, poți trimite cheia prin curier din România sau din străinătate, iar noi o procesăm și ți-o returnăm rapid și în siguranță.</span>    
-    <span>📞 <b>Contactează-ne</b> pentru detalii sau programări!</span>
+    <h2>📞 <b>Contactează-ne</b> pentru detalii sau programări!</h2>
 </p>
               </div>
 
@@ -284,7 +287,7 @@ export default function Home() {
             <div className="row-prices">
               <div className="row-prices-img">
                 <div className="prices-img">
-                  <img alt="Reparații chei BMW Smart Key originale cu display" src="./assets/RepairKey1.jpeg" />
+                  <img alt="Reparații chei BMW Smart Key originale cu display" src="./assets/reparatii-chei-auto-smart.jpeg" />
                 </div>
               </div>
               <div className="row-prices-list">
@@ -320,7 +323,7 @@ export default function Home() {
             <div className="largebox-contact">
               <div className="box-contact-phone">
                 <div className="box-contact-icon">
-                  <a href="tel:0310050062" className="social icon" a="true">
+                  <a href="tel:0762961548" className="social icon" a="true">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 578.11 577.73"
@@ -333,7 +336,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="box-contact-info">
-                  <a href="tel:0310050062" a="true">
+                  <a href="tel:0762961548" a="true">
                     0762 961 548
                   </a>
                 </div>
@@ -362,10 +365,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="box-contact-info">
-                  <a href="mailto:office@barber.ro" a="true">
-                    carkeysolutiontm@yahoo.ro
-                  </a>
-                </div>
+  <a href="mailto:carkeysolutiontm@yahoo.ro">carkeysolutiontm@yahoo.ro</a>
+</div>
               </div>
               <div className="box-contact-location">
                 <div className="box-contact-icon">

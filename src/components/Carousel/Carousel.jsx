@@ -17,15 +17,15 @@ export function Carousel() {
   };
 
   const images = [
-    "./assets/GAL1.jpeg",
-    "./assets/GAL2.jpeg",
-    "./assets/GAL3.jpeg",
-    "./assets/GAL12.jpeg",
-    "./assets/GAL13.jpeg",
-    "./assets/GAL15.jpeg",
-    "./assets/GAL9.jpeg",
-    "./assets/GAL10.jpeg",
-    "./assets/Smart2.jpeg",
+    "./assets/cheie-smart-bmw-seria-3-f30-display.jpeg",
+    "./assets/upgrade-smart-key-peugeot.jpeg",
+    "./assets/conversie-cheie-digitala-mercedes.jpeg",
+    "./assets/upgrade-smart-key-audi-keyless.jpeg",
+    "./assets/cheie-smart-lcd-vw-passat.jpeg",
+    "./assets/smart-key-bmw-g30-retrofit.jpeg",
+    "./assets/smart-key-bmw-X5-retrofit.jpg",
+    "./assets/upgrade-cheie-smart-audi-keyless-entry.jpeg",
+    "./assets/cheie-smart-bmw-display.jpeg",
 
 
   ];
