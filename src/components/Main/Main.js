@@ -365,7 +365,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="box-contact-info">
-  <a href="mailto:carkeysolutiontm@yahoo.ro">carkeysolutiontm@yahoo.ro</a>
+  <a href="mailto:carkeysolutiontm@gmail.com">carkeysolutiontm@gmail.com</a>
 </div>
               </div>
               <div className="box-contact-location">
