@@ -344,7 +344,8 @@ export default function Home() {
               <div className="box-contact-email">
                 <div className="box-contact-icon">
                   <a
-                    href="mailto:office@barber.ro"
+                  href="mailto:carkeysolutiontm@gmail.com"
+
                     className="social icon"
                     a="true"
                   >
@@ -418,7 +419,8 @@ export default function Home() {
                 </div>
                 <div className="box-contact-icoinst">
                   <a
-                    href="https://www.instagram.com/chei_auto_solution_timisoara/"
+href="https://www.instagram.com/carkeysolution_timisoara/"
+
                     className="social icon"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -435,7 +437,8 @@ export default function Home() {
                 </div>
                 <div className="box-contact-icoyb">
                   <a
-                    href="https://www.tiktok.com/@chei.auto.solution.tm?lang=en-GB"
+href="https://www.tiktok.com/@carkeysolution.timisoara"
+
                     className="social icon"
                     target="_blank"
                     rel="noopener noreferrer"
