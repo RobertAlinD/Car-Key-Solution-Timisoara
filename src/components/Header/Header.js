@@ -37,7 +37,11 @@ const Header = () => {
       <header>
         <nav ref={menuRef} className={`nav ${isMenuOpen ? "active" : ""}`}>
           <div className="navbar-logo-box">
-            <img src="./assets/logopageleft.png" alt="Logo Smart Key Timisoara " />
+          <img 
+  src="./assets/Logostangasus1.png" 
+  alt="Logo Smart Key Timisoara" 
+  style={{ width: '155px', height: '130' }} 
+/>
           </div>
 
           <div className={`nav ${isMenuOpen ? "active" : ""}`}>
